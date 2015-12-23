@@ -24,4 +24,8 @@
 		<property name="boardService" ref="boardService"></property>	
 	</bean>
 	<bean class="mybatis.BoardManager"></bean>
+	
+	<bean class="com.cramcoder.member.controller.RegisterController"/>
+	
+	<bean class="com.cramcoder.member.controller.MainController"/>
 </beans>
