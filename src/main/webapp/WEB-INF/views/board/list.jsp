@@ -13,7 +13,7 @@
 <c:forEach items="${list}" var="dto">
 <tr>
 	<td>${dto.b_seq}</td>  
-	<td>${dto.b_title}</td>  
+	<td><a href="read.board?b_seq=${dto.b_seq}">${dto.b_title}</a></td>  
 	<td>${dto.b_writer}</td>  
 	<td>${dto.b_regdate}</td>  
 	<td>${dto.b_hitcount}</td>  

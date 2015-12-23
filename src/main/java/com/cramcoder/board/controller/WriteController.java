@@ -22,7 +22,7 @@ public class WriteController {
 
 	@RequestMapping(value="/write.board", method=RequestMethod.GET)
 	public String pageHandler(){
-		return "/WEB-INF/views/board/write.jsp";
+		return "board/write.jsp";
 	}
 	
 	@RequestMapping(value="/write.board", method=RequestMethod.POST)

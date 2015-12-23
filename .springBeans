@@ -10,6 +10,9 @@
 		<config>src/main/webapp/WEB-INF/conf/applicationContext.xml</config>
 	</configs>
 	<autoconfigs>
+		<config>src/main/webapp/WEB-INF/conf/bean-config.xml</config>
+		<config>src/main/webapp/WEB-INF/conf/handler-config.xml</config>
+		<config>src/main/webapp/WEB-INF/conf/view-config.xml</config>
 	</autoconfigs>
 	<configSets>
 	</configSets>
